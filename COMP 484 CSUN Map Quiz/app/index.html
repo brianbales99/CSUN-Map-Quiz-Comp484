@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="script.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>MapQuiz</title>
+</head>
+<body>
+    <section class="textarea">
+        <h1>My First Map Quiz!</h1>
+        <p> Click on the following CSUN locations</p>
+        <p><ol>
+            <li>Baseball Field <span id="result1"></span></li>
+            <li>Matadome <span id="result2"></span></li>
+            <li>University Student Union <span id="result3"></span></li>
+            <li>Jacaranda Hall <span id="result4"></span></li>
+            <li>Art Galleries <span id="result5"></span></li>
+        </ol></p>
+        <div>
+            <h2>Score: <span id="score">0</span></h2>
+                </section>
+  
+        </div>
+  
+              <section id="clock">
+                <h2>TIMER: <span id="timerr">00:00:00</span></h2>
+    </section>
+
+    <section class="maparea">
+        <div id="map"></div>
+    </section>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgNmK4E0mHkBmkhB8SGBGz_xxginHQrrg&callback=initMap" async></script>
+
+</body>
+</html>
